@@ -22,4 +22,5 @@ func main() {
 	r.DELETE("/customers/:customerId", a.DeleteHandler)
 
 	r.Run("localhost:8080")
+
 }
